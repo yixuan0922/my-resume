@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Build and Deploy Job
     steps:
-      - uses: v1.10.0 
+      - uses: actions/checkout@master 
         with:
           submodules: true
       - name: Build And Deploy
